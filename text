@@ -1,0 +1,73 @@
+Esercizio
+
+- Fare la spesa seguendo una lista
+
+Fatti mandare dalla mamma a prendere il latte
+Nel frigo si inizia a sentire l’eco, perciò è ora di fare rifornimenti!
+Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca in una lista, così una volta al supermercato, girando tra gli scaffali, posso verificare di aver preso tutto e Ricky non rimane senza crocchette come l’ultima volta, povero! Devo ricordarmi di usare il coupon che scade a fine mese, per il resto dovrebbero bastarmi i contanti che ho in portafogli, sempre se non mi faccio prendere la mano con gli snack extra! 
+
+
+
+Aprire il frigo
+	-Controllare cosa manca
+		*chiudo frigo
+
+Estrarre telefono dalla tasca
+	-sbloccare telefono 
+	-aprire le note
+		*creare una nota chiamata lista
+		*appuntare articoli mancanti nella lista
+	-bloccare telefono
+
+Riposare in telefono nella tasca
+
+SE vestito decentemente
+	-esco di casa
+
+ALTRIMENTI 
+	-vestirsi decentemente
+	-esco di casa
+
+Aprire porta
+	-oltrepassarla 
+	-chiudere porta 
+
+Attraversare la strada con cautela
+	-raggiungere il supermercato
+
+Entrare nel supermercato 
+	-SE + di 10 articolo
+		*prendere carrello
+
+	-ALTRIMENTI
+		*prendere cestino
+
+Estrarre telefono dalla tasca
+	-sbloccare telefono 
+	-aprire le note
+		*aprire la lista 
+		*per ogni elemento della lista
+			# controllare reparto di riferimento
+			#SE articolo presente
+				°prendere articolo
+				°cancellare articolo dalla lista
+			#ALTRIMENTI
+				°passare all’articolo successivo
+	-bloccare telefono
+
+Andare verso la cassa 
+	-FINCHÉ c’è fila
+		*attendere il proprio turno
+	-ALTRIMENTI 
+		*posare articoli sul rullo
+
+Prendere coupon
+	-utilizzare coupon
+
+	-SE prezzo < contanti
+		#pagare con i contanti
+
+	-ALTRIMENTI	
+		#pagare con la carta
+
+Uscire dal supermercato
